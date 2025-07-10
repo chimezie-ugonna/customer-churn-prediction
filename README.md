@@ -52,43 +52,9 @@ The entire machine learning pipeline is implemented in the `BankChurnProject.ipy
 
 ## How to Run the Project
 
-### Option 1 – Google Colab
-
 1. Clone this repository to your Google Drive or open the `.ipynb` notebook directly in Google Colab.
 2. Upload the `BankChurners.csv` file when prompted.
 3. Run the notebook cells sequentially.
-
-### Option 2 – Run Locally with Jupyter (Untested)
-
-This pipeline may also work locally using Jupyter Notebook, but it was not tested outside Google Colab.
-
-To attempt local setup:
-
-```bash
-git clone https://github.com/chimezie-ugonna/customer-churn-prediction.git
-cd customer-churn-prediction
-
-# Install dependencies
-pip install pandas numpy seaborn matplotlib scikit-learn
-
-# Launch Jupyter
-jupyter notebook
-Then Open `BankChurnProject.ipynb` and run the cells in order.
-
-## Dependencies
-
-You will need the following Python libraries:
-
-- pandas
-- numpy
-- seaborn
-- matplotlib
-- scikit-learn
-
-These can be installed via:
-
-pip install pandas numpy seaborn matplotlib scikit-learn
-```
 
 ## Project Output
 
